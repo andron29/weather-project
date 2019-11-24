@@ -1,6 +1,8 @@
-var path = require('path');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
+ var path = require('path');
+ var CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+
 
 module.exports = {
     module: {
