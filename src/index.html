@@ -8,9 +8,29 @@
    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div>
-        <img src="img/skyline.jpg" alt="">
-    </div>
+    <header>
+        weather app
+    </header>
+    <main>
+        <div class='location'>
+            <div class="location__select">
+                            <script type="text/javascript">
+                            var d = new Date();
+                            document.write (d.toDateString());
+                            </script>
+                <h2>Select city from list</h2>
+                <select name="location-select" id="location-select">
+                    <option value="">select</option>
+                    <option value="Moscow">Moscow</option>
+                    <option value="london">London</option>
+                    <option value="Chisinau">Chisinau</option>
+                    <option value="New_York">New-York</option>
+                    <option value="Paris">Paris</option>
+                </select>
+            </div>
+            <img id='location-image' class="location__image" src="img/skyline.jpg" alt="">
+        </div>
+    </main>   
 </body>
 <script src="main.js"></script>
 </html>
